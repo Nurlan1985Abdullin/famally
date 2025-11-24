@@ -31,8 +31,9 @@
 
         nav {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
             padding: 15px 0;
         }
 
@@ -113,6 +114,12 @@
             box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
         }
 
+        /* Новые секции */
+        .recipes ul, .advice ul, .achievements ul, .places ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
         /* Футер */
         footer {
             text-align: center;
@@ -136,6 +143,10 @@
         <a href="#news">Новости</a>
         <a href="#contacts">Контакты</a>
         <a href="#dates">Даты</a>
+        <a href="#recipes">Рецепты</a>
+        <a href="#advice">Советы</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#places">Места</a>
     </nav>
 </header>
 
@@ -168,9 +179,9 @@
     <h2>Фотоальбом</h2>
     <div class="gallery">
         <img src="images/mom.jpg" alt="Мама">
-        <img src="images/dad.jpg" alt="папа ">
-        <img src="images/sun.jpg" alt="сын ">
-        <img src="images/nnn.jpg" alt="аа ">
+        <img src="images/dad.jpg" alt="Папа">
+        <img src="images/sun.jpg" alt="Сын">
+        <img src="images/nnn.jpg" alt="Аа">
     </div>
 </section>
 
@@ -216,6 +227,45 @@
             <li>21 марта 2024 — День рождения Сункар </li>
         </ul>
     </div>
+</section>
+
+<section id="recipes">
+    <h2>Рецепты семьи</h2>
+    <p>Любимые блюда нашей семьи:</p>
+    <ul>
+        <li>Плов по рецепту бабушки</li>
+        <li>Шашлык на праздники</li>
+        <li>Торт "Медовик"</li>
+    </ul>
+</section>
+
+<section id="advice">
+    <h2>Советы от бабушки</h2>
+    <ul>
+        <li>Никогда не спешите утром — день начнётся лучше.</li>
+        <li>Всегда пейте достаточно воды.</li>
+        <li>Сохраняйте семейные фотографии, это бесценно.</li>
+    </ul>
+</section>
+
+<section id="achievements">
+    <h2>Семейные достижения</h2>
+    <p>Мы гордимся нашими маленькими и большими успехами:</p>
+    <ul>
+        <li>Нурлан закончил университет с отличием</li>
+        <li>Данияр выиграл школьный конкурс</li>
+        <li>Совместный семейный марафон в 2023 году</li>
+    </ul>
+</section>
+
+<section id="places">
+    <h2>Любимые места</h2>
+    <p>Места, куда мы любим ездить:</p>
+    <ul>
+        <li>Горы Алматы</li>
+        <li>Озеро Иссык-Куль</li>
+        <li>Дача на берегу реки</li>
+    </ul>
 </section>
 
 <footer>
